@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+    <header>
+
+    </header>
+    <body>
+        <button onclick="numriidyte()" id="num1" value="2" required>2</button>
+        <button onclick="numriipare()" id="num2" value="1"  required>1</button>
+        <p id="rezult"></p>
+        <p id="rezultati"></p>
+        <button onclick="shuma()">rezultat</button>
+    </body>
+    <script>
+
+        function shuma(){
+                var numb1 = document.getElementById("num1").value;
+                var numb2 = document.getElementById("num2").value;
+                var shuma = numb1 + numb2;
+            document.getElementById("rezult").innerHTML= shuma;   
+        }
+
+        function numriidyte(){
+                var numb1 = document.getElementById("num1").value;
+                document.getElementById("rezult").innerHTML= numb1;
+        }
+        function numriipare(){
+                var numb1 = document.getElementById("num2").value;
+                document.getElementById("rezult").innerHTML= numb1;
+        }
+    </script>
+</html>

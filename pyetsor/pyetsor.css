@@ -1,0 +1,96 @@
+body{
+    padding: 0% 30% 0% 30%;
+    background-image: url(https://study.eshipglobal.com/img/StudentsIMG.jpg) ;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    margin: 0 auto;
+    color: #ffffff;
+    
+    }
+    #main{
+        background-color: rgba(98, 62, 0, 0.9);
+        padding: 2.5% 2.5% 10% 2.5%;
+        margin: 0 auto;
+    }
+   #title{
+    text-align: center;
+
+   }
+   #description{
+       text-align: center;
+   } 
+   #survey-form{
+       font-family: Arial, Helvetica, sans-serif;
+   }
+   #name{
+       width: 95%;
+       padding: 10px 0px 10px 0px;
+       margin-bottom: 20px;
+   }
+   #email{ 
+       width: 95%;
+    padding: 10px 0px 10px 0px;
+    margin-bottom: 20px;
+
+   }
+   #number{ 
+       width: 95%;
+    padding: 10px 0px 10px 0px;
+    margin-bottom: 20px;
+
+   }
+   #dropdown{ 
+       width: 95%;
+    padding: 10px 0px 10px 0px;
+    margin-bottom: 20px;
+
+   }
+   #favorite{
+        width: 95%;
+    padding: 10px 0px 10px 0px;
+    margin-bottom: 20px;
+
+   }
+   #comment{ 
+       width: 95%;
+    padding: 10px 0px 10px 0px;
+    margin-bottom: 20px;
+
+   }
+   #submit{
+        width: 95%;
+    padding: 10px 0px 10px 0px;
+    margin-bottom: 20px;
+    background-color: #f3e40e;
+   }
+   #gender{
+       margin-bottom: 20px;
+   }
+   #name-label{
+font-family: Georgia, 'Times New Roman', Times, serif;
+   }
+   #email-label{
+font-family: Georgia, 'Times New Roman', Times, serif;
+   }
+   #number-label{
+font-family: Georgia, 'Times New Roman', Times, serif;
+   }
+   #correntrole-label{
+font-family: Georgia, 'Times New Roman', Times, serif;
+   }
+   #favorite-label{
+font-family: Georgia, 'Times New Roman', Times, serif;
+   }font-family: Georgia, 'Times New Roman', Times, serif;
+
+   #comment-label{
+       font-family: Georgia, 'Times New Roman', Times, serif;
+    
+   }
+
+   @media (max-width: 600px){
+       body{
+           padding: 0;
+           margin: 0 auto;
+       }
+   }

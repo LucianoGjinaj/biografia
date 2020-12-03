@@ -1,0 +1,140 @@
+body{
+    text-align: center;
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+}
+header{
+    text-align: right;
+    padding: 2% 0% 2% 0%;
+    background-color: rgb(99, 99, 99);
+    position: fixed;
+    width: 100%;
+    top: 0;
+}
+.titull{
+    color:  rgb(223, 24, 24);
+    padding: 2% 30px 2% 30px;
+    font-size: 120%;
+    text-decoration-line: none;
+    transition-duration: 0.5s;
+    margin: -2px;
+    font-weight: bolder;
+}
+.titull:hover{
+    background-color: blue;
+    color: white
+}
+main{
+    padding-top: 6%;
+    margin: 0%;
+    padding-right: 0%;
+    position: static;
+    color: white;
+    background-image: linear-gradient(white,darkgreen);
+    
+}
+#welcome-section{
+    
+    padding: 10%;;
+    padding-bottom: 0%;
+    color: rgb(223, 24, 24);
+}
+#welcome-section h1{
+    margin: 0%;
+    font-size: 80px;
+    color: white;
+
+}
+#welcome-section p{
+    font-size: 30px;
+    margin: 0%;
+}
+#projects{
+    padding-top: 3%;
+    background-color: black;
+    padding-bottom: 7%;
+    position: static;
+}
+#projekt{
+    display: grid;
+    grid-template-columns: 50% 50%;
+    padding-left: 7%;
+    padding-right: 15%;
+    grid-column-gap: 10%;
+    grid-row-gap: 5%;
+    margin-bottom: 7%;
+
+}
+@media (max-width: 800px){
+    #projekt{
+        grid-template-columns: auto;
+        padding-left: 26%;
+        padding-right: 26%;
+        padding-top: 3%;
+        padding-bottom: 20%;
+    }
+    #welcome-section h1{
+        font-size: 320%;
+    }
+
+    #profile-link ul{
+        grid-template-columns: none;
+        grid-gap: 10px;
+    }
+
+    #profile-link h1{
+        font-size: 200%;
+    }
+}
+.show{
+    top: 3%;
+    padding: 10px;
+    background-color: rgb(223, 24, 24);
+    color: white;
+    text-decoration-line: none;
+}
+.show:hover{
+    background-color: blue;
+    
+}
+.project-tile{
+    margin: 0 0 50px 0;
+    font-size: 250%;
+}
+#projekt a{
+    background-color: gray;
+    color: white;
+    text-decoration-line: none ;
+
+}
+#projekt img{
+    width: 100%;
+}
+#profile-link{
+    padding: 10%;
+}
+#profile-link h1{
+    font-size: 300%;
+    margin: 0px;
+}
+#profile-link p{
+    font-size: 150%;
+    margin-top: 0px;
+}
+#profile-link ul{
+    margin-top: 10%;
+    font-size: 150%;
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    grid-gap: 10px;
+    list-style-type: none;
+}
+#profile-link a{
+    text-decoration-line: none;
+    color:white;
+
+}
+#profile-link a:hover{
+    font-size: 130%;
+    color:rgb(223, 24, 24);
+}
